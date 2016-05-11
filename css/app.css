@@ -791,7 +791,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background: #fefefe;
+  background: #F1F1F1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -1875,7 +1875,8 @@ kbd {
 
 .lead {
   font-size: 125%;
-  line-height: 1.6; }
+  line-height: 1.6;
+  text-align: center;}
 
 .stat {
   font-size: 2.5rem;
@@ -2520,19 +2521,20 @@ select {
         margin-right: 0; } }
 
 .callout {
+  text-align: center;
   margin: 0 0 1rem 0;
   padding: 1rem;
-  border: 1px solid rgba(10, 10, 10, 0.25);
+  /**border: none;**/
   border-radius: 0;
   position: relative;
-  color: #0a0a0a;
-  background-color: white; }
+  /**color: #0a0a0a;
+  background-color: none;**/ }
   .callout > :first-child {
     margin-top: 0; }
   .callout > :last-child {
     margin-bottom: 0; }
   .callout.primary {
-    background-color: #def0fc; }
+    background-color: #FEFEFE; }
   .callout.secondary {
     background-color: #ebebeb; }
   .callout.success {
