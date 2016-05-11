@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-<!--NAV-->
+<!--NAV
 <div class="top-bar">
 <div class="top-bar-left">
 <ul class="menu">
@@ -19,6 +19,32 @@
 <li><a href="#">Contact</a></li>
 </ul>
 </div>
+</div>-->
+<div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+<div class="top-bar" id="main-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+        <a href="index.html"><li class="menu-text">Jean Juliano</li></a>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu" data-responsive-menu="drilldown medium-dropdown">
+      <li class="has-submenu">
+        <a href="#">Work</a>
+        <ul class="submenu menu vertical" data-submenu>
+          <li><a href="crux.html">CRUX</a></li>
+          <li><a href="jsweets.html">JSweets</a></li>
+          <li><a href="wisemoves.html">Wise Moves Pialtes</a></li>
+        </ul>
+      </li>
+      <li><a href="https://www.linkedin.com/in/jeanjuliano"><i class="fi-social-linkedin"></i></a></li>
+      <li><a href="https://github.com/jdjulian"><i class="fi-social-github"></i></a></li>
+    </ul>
+  </div>
 </div>
 <!--HEADER--> 
 <div class="callout large primary">
@@ -147,10 +173,52 @@
 Due to this response, however, I have learned that this has potential to become a nation-wide custom-made cake and delivery business with very little use of brick and mortar in several locations. All Jessica would need is to find now is a coworking-space with a Department of Health approved kitchen to bake her cakes. Jessica also has the option of renting kitchen space from an existing bakery if a coworking space with an approved kitchen is not readily available. A Department of Health approved vehicle that meets temperature and storage requirements to transport food is also necessary. For out-of-state orders, one option discussed with Jessica is to outsource orders to other bakeries for areas out site of Las Vegas, but this would take-away from her original designs that another bakery may not be able to provide. <br><br>
 In future revisions for this project, until Jessica is ready to launch her business, I plan to redesign the gallery page and identify a faster way to populate the photo sliders. Currently, they upload very slowly. I would also work on an order page that would immediately provide cake quotes depending on the selections made with cake size, flavors, and specific ingredients. This would require more time to set up code variations and combinations, but would eliminate the request page entirely. This would also require Jessica to gather and provide more information on specific quotes and pricing based on a combination of different ingredients.
 </p>
-
-
 </div>
-</div>
+    </div>
+    </div>
+
+<!--FOOTER-->
+<link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+
+<footer class="footer">
+  <div class="row">
+    <div class="small-12 medium-6 medium-push-6 columns">
+      <p class="logo show-for-small-only">Jean Juliano</p> 
+      <form class="footer-form">
+        <div class="row">
+          <div class="medium-9 medium-push-3 columns">
+            <label>
+              <label for="email" class="contact">Get In Touch!</label>
+              <input type="email" id="email" placeholder="Email Address" />
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="medium-9 medium-push-3 columns">
+            <label>
+              <textarea rows="5" id="message" placeholder="Message"></textarea>
+            </label>
+          </div>
+          <div class="row">
+            <div class="medium-9 medium-push-3 columns">
+              <button class="submit" type="submit" value="Submit">Send</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="small-12 medium-6 medium-pull-6 columns">
+      <p class="logo hide-for-small-only"></i> Jean Juliano</p> 
+      <ul class="inline-list social">
+        <a href="https://www.linkedin.com/in/jeanjuliano"><i class="fi-social-linkedin"></i></a>
+        <a href="https://github.com/jdjulian"><i class="fi-social-github"></i></a>
+        <a href="https://twitter.com/jdjulian7"><i class="fi-social-twitter"></i></a>
+      </ul>
+      <p class="copywrite">Copyright © 2016</p>
+    </div>
+  </div>
+</footer>
+
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
 <script>
