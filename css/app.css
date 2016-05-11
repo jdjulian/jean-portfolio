@@ -4378,3 +4378,10 @@ table.hover tr:nth-of-type(even):hover {
   animation-delay: 700ms !important; }
 
 /*# sourceMappingURL=app.css.map */
+
+/**ADDED CSS**/
+.doodles {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
