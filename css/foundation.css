@@ -2107,7 +2107,7 @@ select {
     background: #2199e8; }
 
 .menu-text {
-  font-weight: bold;
+  /**font-weight: bold;**/
   color: inherit;
   line-height: 1;
   padding-top: 0;

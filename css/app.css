@@ -423,7 +423,7 @@
  *    without disabling user zoom.
  */
 html {
-  font-family: sans-serif;
+  font-family: 'Questrial', sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -604,7 +604,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'Questrial', sans-serif;
   font-size: 1em; }
 
 /* Forms
@@ -787,11 +787,11 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Questrial', sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
-  background: #F1F1F1;
+  /**background: #F1F1F1;**/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -1731,7 +1731,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Questrial', sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -1852,7 +1852,7 @@ abbr {
   border-bottom: 1px dotted #0a0a0a; }
 
 code {
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-family: 'Questrial', sans-serif;
   font-weight: normal;
   color: #0a0a0a;
   background-color: #e6e6e6;
@@ -1864,7 +1864,7 @@ kbd {
   margin: 0;
   background-color: #e6e6e6;
   color: #0a0a0a;
-  font-family: Consolas, "Liberation Mono", Courier, monospace; }
+  font-family: 'Questrial', sans-serif; }
 
 .subheader {
   margin-top: 0.2rem;
@@ -2639,7 +2639,7 @@ select {
     background: #2199e8; }
 
 .menu-text {
-  font-weight: bold;
+  /**font-weight: bold;**/
   color: inherit;
   line-height: 1;
   padding-top: 0;
@@ -2788,7 +2788,7 @@ select {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: #2199e8 transparent transparent;
+  border-color: #363F3C transparent transparent;
   border-top-style: solid;
   border-bottom-width: 0;
   right: 5px;
@@ -4396,16 +4396,16 @@ body {
   padding: 0.9rem; }
 
 .top-bar {
-  background: #333; }
+  background: #A9C7BD; }
   .top-bar ul {
-    background: #333; }
+    background: #A9C7BD; }
     .top-bar ul li {
-      background: #333; }
+      background: #A9C7BD; }
       .top-bar ul li a {
-        color: #fff; }
+        color: #363F3C; }
 
 .menu-text {
-  color: #fff; }
+  color: #363F3C; }
   @media only screen and (max-width: 40em) {
     .menu-text {
       display: none !important; } }
@@ -4417,8 +4417,8 @@ body {
   .top-bar .menu:first-child {
     border-left: none; }
 
-  .top-bar .menu li:not(:last-child) {
-    border-right: 1px solid #4e4e4e; } }
+  /**.top-bar .menu li:not(:last-child) {
+    border-right: 1px solid #4e4e4e; }**/ }
 .dropdown.menu .submenu {
   border: none; }
 
@@ -4518,3 +4518,9 @@ body {
   font-size: 1.5rem; }
   .logo i {
     margin-right: 0.5rem; }
+
+
+/**CUSTOM CODE**/
+#nameLogo {
+    color: #D3643B;
+}
